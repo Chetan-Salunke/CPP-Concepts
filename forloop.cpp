@@ -5,9 +5,8 @@ int main ()
 {
 
     int n=10;
-    while(n<20){
-        cout<<n<<endl;
-        n++;
+    for (int i=1; i<=n; i++){
+        cout<<i<<endl;
     }
     return 0;
 }
